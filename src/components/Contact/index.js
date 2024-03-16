@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { addDoc, collection, getDocs, query, where } from 'firebase/firestore';
+import fireDB from './../../firebaseConfig';
 import { Snackbar } from '@mui/material';
 
 const Container = styled.div`
@@ -128,15 +129,29 @@ const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const form = useRef();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
-      .then((result) => {
-        setOpen(true);
-        form.current.reset();
-      }, (error) => {
-        console.log(error.text);
-      });
+    const email = e.target.elements.from_email.value;
+    const name = e.target.elements.from_name.value;
+    const subject = e.target.elements.subject.value;
+    const message = e.target.elements.message.value;
+
+    const userDetails = {
+      email: email,
+      name: name,
+      subject: subject,
+      message: message
+    }
+
+    await addDoc(collection(fireDB, 'feedbackDetails'), userDetails);
+
+    alert('your details has been saved successfully');
+
+    try {
+      
+    } catch (error) {
+      console.log(error);
+    }
   }
 
 
