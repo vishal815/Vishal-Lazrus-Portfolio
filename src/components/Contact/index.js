@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
 import { addDoc, collection, getDocs, query, where } from 'firebase/firestore';
+import { toast } from 'react-toastify';
 import fireDB from './../../firebaseConfig';
 import { Snackbar } from '@mui/material';
 
@@ -145,7 +146,15 @@ const Contact = () => {
 
     await addDoc(collection(fireDB, 'feedbackDetails'), userDetails);
 
-    alert('your details has been saved successfully');
+    toast.success('Thank you for your response!! Your response has been saved successfully', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      theme: "colored",
+      });
 
     try {
       
@@ -163,10 +172,10 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput placeholder="Your Email" name="from_email" required />
+          <ContactInput placeholder="Your Name" name="from_name" required />
+          <ContactInput placeholder="Subject" name="subject" required />
+          <ContactInputMessage placeholder="Message" rows="4" name="message" required />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar

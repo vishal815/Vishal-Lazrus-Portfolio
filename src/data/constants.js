@@ -1,3 +1,5 @@
+import { GitHub } from "@mui/icons-material";
+
 export const Bio = {
   name: "Vishal Lazrus",
   roles: [
@@ -14,7 +16,8 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/vishal-lazrus-7924091b7/",
   youtube: "https://www.youtube.com/channel/UCH_ebrNFfZEX8KmiSMsvZbg",
   Instra: "https://www.instagram.com/vishallazrus/?hl=en",
-  facebook: "https://www.facebook.com/vishal.lazrus/",
+  githublink: "https://github.com/vishal815/",      
+  // facebook: "https://www.facebook.com/vishal.lazrus/",
 };
 
 export const skills = [
@@ -205,6 +208,27 @@ export const experiences = [
     ],
     doc: "https://i.pinimg.com/736x/31/78/f5/3178f55abcaa1351c62815597e702a7f.jpg",
   },
+
+  {
+    id: 0,
+    img: "data:image/png;base64,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",
+    Achivment: "Authored and Presented Research Paper",
+  company: "Presented at IC3SE 2024 (International Conference on Science, Social Science, and Economics), associated with AIEE and indexed by Google Scholar.",
+  date: "10th May 2024",
+  desc: "Authored and presented the research paper titled “Novel Architecture and Deep Learning-Based Segmentation of 3D Brain MRI Images using SegNet, V-Net, and U-Net” at IC3SE 2024, held at Amity University. The paper explores advanced techniques in deep learning for medical image segmentation, providing significant insights and contributions to the field.",
+  skills: [
+    "Novel Architecture",
+    "SegNet",
+    "V-Net",
+    "U-Net",
+    "3D Brain MRI",
+    "Deep Learning",
+    "Medical Image Segmentation"
+  ],
+  doc: "https://i.pinimg.com/736x/aa/f4/b4/aaf4b4a92569804b9f3cf78de8252f36.jpg",
+},
+
+  
   {
     id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbSVVgbI54phmRuu0nH7XrqjSnxRI8t0cOXQ&usqp=CAU",
@@ -320,7 +344,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "http://www.stteresaschoolmarpa.com/images/logo.png",
+    img: "https://directory.edugorilla.com/wp-content/uploads/sites/6/2018/01/bdb58fd5abaa915fb6f9d163bbbeef5b.jpeg",
     school: "St. Theresa's school",
     desc: "I completed my class 10 education at St. Theresa's school, Marpa Kothi, Bairgania, Sitamarhi, Bihar, 843313 .",
     degree: "HIGH SCHOOL:- Bihar Board.",
@@ -509,6 +533,49 @@ export const projects = [
     github: "https://github.com/vishal815/Parkinsons-Disease-Detection",
     webapp: "https://parkinson-disease-predictor.vercel.app/",
   },
+  {
+    id: 12,
+    title: "Novel Architecture and Comparative Study for Deep Learning-Based Segmentation of 3D Brain MRI Images using SegNet, V-Net, and U-Net",
+    date: "Apr 2024",
+    description:
+      "Developed deep learning models for 3D MRI-based brain tumor segmentation with video output of the segmented tumor; implemented a novel architecture of U-Net using new Leaky ReLU activation; utilized the Medical Segmentation Decathlon dataset; trained the model on NVIDIA DGX A100 in the college lab and Kaggle; achieved a Dice Similarity Coefficient of 88.5% with U-Net, outperforming V-Net (86.4%) and SegNet (84.8%).",
+      image:
+      "https://i.pinimg.com/736x/1b/3d/92/1b3d92bd6062a5e1890ec40023e00f0a.jpg",
+    tags: [ "TensorFlow", "Keras", "Deep Learning", "Medical Imaging", "Data Augmentation", "3D CNNs", "SegNet", "V-Net", "U-Net", "Docker", "Kaggle"],
+    category: "machine learning",
+    github: "https://github.com/vishal815/Deep-Learning-Models-for-3D-MRI-based-Brain-Tumor-Segmentation-using-Seg-Net-V--Net-and-U-Net",
+    webapp:"https://github.com/vishal815/Deep-Learning-Models-for-3D-MRI-based-Brain-Tumor-Segmentation-using-Seg-Net-V--Net-and-U-Net"
+},
+{
+  id: 11,
+  title: "Stock Market Prediction",
+  date: "Jan 2023",
+  description:
+    "This project predicts stock market trends using Machine Learning and Django. It provides valuable insights and forecasts to help investors make informed decisions.",
+  image:
+    "https://i.pinimg.com/736x/f7/2b/69/f72b69de51f10a1ef913f6f42d8e1767.jpg",
+  tags: ["Python", "Django", "Machine Learning", "Pandas", "Numpy", "Scikit-learn", "Matplotlib"],
+  category: "machine learning",
+  github: "https://github.com/vishal815/-Stock-market-Prediction-with-Machine-Learning-Django",
+  webapp: "https://github.com/vishal815/-Stock-market-Prediction-with-Machine-Learning-Django",
+},
+
+{
+  id: 13,
+  title: "Malicious URL Detection",
+  date: "Oct 2023",
+  description:
+    "The Malicious URL Detection System is a project designed to identify and classify URLs as either malicious or benign using machine learning techniques. It enhances web security by flagging potentially harmful URLs, preventing cyber threats.",
+  image:
+    "https://i.pinimg.com/736x/7c/f3/66/7cf3664c54c7cf2becee39dbcfbc59f3.jpg",
+  tags: ["Python", "Machine Learning", "Random Forest Classifier", "XGboost Classifier",  "cybersecurity", "URL Security"],
+  category: "machine learning",
+  github: "https://github.com/vishal815/Malicious-URL-Detection-System",
+  webapp: "https://github1s.com/vishal815/Malicious-URL-Detection-System/tree/main",
+},
+
+
+
 ];
 
 export const TimeLineData = [

@@ -1,4 +1,7 @@
 import { ThemeProvider } from "styled-components";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import { useState, useEffect } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
@@ -51,6 +54,7 @@ function App() {
           }
         </Body>
       </Router>
+      <ToastContainer />
     </ThemeProvider>
   );
 }
