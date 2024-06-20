@@ -12,7 +12,7 @@ export const Bio = {
     "As a DevOps and Machine Learning Enthusiast, dedicated to gaining expertise in cutting-edge technologies that will shape the future of the industry. With a passion for innovation and problem-solving, also committed to continuous learning and professional development I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning and dedicated to delivering high-quality results.",
   github: "https://github.com/vishal815/",
   resume:
-    "https://drive.google.com/file/d/1VgCu9kl7HQdm0k1H4cZPMWH95Yl3vU_Z/view?usp=drive_link",
+    "https://drive.google.com/file/d/1blfhteyY_rzvhE88WYqGNRMb-xzPXky-/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vishal-lazrus-7924091b7/",
   youtube: "https://www.youtube.com/channel/UCH_ebrNFfZEX8KmiSMsvZbg",
   Instra: "https://www.instagram.com/vishallazrus/?hl=en",
