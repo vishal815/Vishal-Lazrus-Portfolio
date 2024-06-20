@@ -1,8 +1,14 @@
 
 # Vishal Lazrus Porfolio
-## It contains my Technical information, education, and much more.
 
-[Visit my portfolio website](https://vishal-lazrus-portfolio.vercel.app/)
+🚀 **Excited to Share My Portfolio Website!** 🚀
 
+I'm thrilled to showcase my latest project, a comprehensive portfolio that highlights my skills, projects, and experiences. Check it out and explore what I've been working on!
 
-![image](https://github.com/vishal815/Vishal-Lazrus-Portfolio/assets/83393190/9cf1b882-2bab-4ffd-ab79-f9c342bcbc95)
+🌐 **Website:** [Vishal Lazrus Portfolio](https://vishal-lazrus-portfolio.vercel.app/)
+💻 **GitHub Repository:** [Portfolio Project](https://github.com/vishal815/Vishal-Lazrus-Portfolio)
+
+🔍 **Live Preview:**
+
+https://github.com/vishal815/Vishal-Lazrus-Portfolio/assets/83393190/b70961cc-942b-4765-ad43-90f948ebb7ba
+
