@@ -7,6 +7,8 @@ I'm thrilled to showcase my latest project, a comprehensive portfolio that highl
 
 🌐 **Website:** [Vishal Lazrus Portfolio](https://vishal-lazrus-portfolio.vercel.app/)
 💻 **GitHub Repository:** [Portfolio Project](https://github.com/vishal815/Vishal-Lazrus-Portfolio)
+📺 **YouTube Overview:** [Watch the video](https://www.youtube.com/watch?v=PtNyi75EI3g&t=37s)
+
 
 🔍 **Live Preview:**
 
