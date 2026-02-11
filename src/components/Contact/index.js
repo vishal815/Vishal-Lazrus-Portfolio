@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
-import { addDoc, collection, getDocs, query, where } from 'firebase/firestore';
+import { collection, addDoc} from "firebase/firestore";
+// import { addDoc, collection, getDocs, query, where } from 'firebase/firestore';
 import { toast } from 'react-toastify';
 import fireDB from './../../firebaseConfig';
 import { Snackbar } from '@mui/material';

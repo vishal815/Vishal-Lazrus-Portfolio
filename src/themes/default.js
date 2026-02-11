@@ -1,9 +1,18 @@
-export default {
-    // Temp fonts
-    fonts: {
-      title: "Space Grotesk, sans-serif",
-      main: "Space Grotesk, sans-serif"
-    },
+// export default {
+//     // Temp fonts
+//     fonts: {
+//       title: "Space Grotesk, sans-serif",
+//       main: "Space Grotesk, sans-serif"
+//     },
+
+const defaultTheme = {
+  primary: '#007bff',
+  secondary: '#6c757d',
+  // ... other theme values
+};
+
+export default defaultTheme;
+
     // Colors for layout
     colors: {
       primary1: "#854CE6",

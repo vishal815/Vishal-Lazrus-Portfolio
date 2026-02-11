@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import _default from '../../themes/default';
+// import _default from '../../themes/default';
 
 export const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
