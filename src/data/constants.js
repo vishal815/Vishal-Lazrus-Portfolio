@@ -3,16 +3,18 @@ import { GitHub } from "@mui/icons-material";
 export const Bio = {
   name: "Vishal Lazrus",
   roles: [
-    "ML Enthusiast",
+    "AI-ML Enthusiast",
     "DevOps Enthusiast",
-    "Web Developer",
+    "Developer",
     "Programmer",
   ],
   description:
-    "As a DevOps and Machine Learning Enthusiast, dedicated to gaining expertise in cutting-edge technologies that will shape the future of the industry. With a passion for innovation and problem-solving, also committed to continuous learning and professional development I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning and dedicated to delivering high-quality results.",
+  "As an AI & Machine Learning enthusiast currently undergoing professional training at Infosys, I am building a strong foundation in Machine Learning, Deep Learning, Generative AI, and LLMs. Passionate about developing intelligent systems to solve real-world problems, with hands-on exposure to NLP and modern AI tools. I also possess working knowledge of DevOps fundamentals, enabling efficient integration and deployment of scalable solutions. Focused on continuous learning and transitioning into impactful AI-driven roles.",
+    // "As an AI & Machine Learning and DevOps Enthusiast, Passionate about leveraging & gaining expertise in cutting-edge technologies that will shape the future of the industry. With a passion for innovation and problem-solving, also committed to continuous learning and professional development I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning and dedicated to delivering high-quality results.",
   github: "https://github.com/vishal815/",
   resume:
-    "https://drive.google.com/file/d/1blfhteyY_rzvhE88WYqGNRMb-xzPXky-/view?usp=sharing",
+  "https://drive.google.com/file/d/15pZXalBZhpnLiQ7Z3h1lWvlWIRunLkTZ/view?usp=sharing",
+    // "https://drive.google.com/file/d/1blfhteyY_rzvhE88WYqGNRMb-xzPXky-/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vishal-lazrus-7924091b7/",
   youtube: "https://www.youtube.com/channel/UCH_ebrNFfZEX8KmiSMsvZbg",
   Instra: "https://www.instagram.com/vishallazrus/?hl=en",
@@ -21,44 +23,49 @@ export const Bio = {
 };
 
 export const skills = [
-  {
-    title: "Machine Learning",
-    skills: [
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Pandas",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original-wordmark.svg",
-      },
-      {
-        name: "Numpy",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original-wordmark.svg",
-      },
-      {
-        name: "Matplotlib",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg",
-      },
-      {
-        name: "Scikit-learn:",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
-      },
-      {
-        name: "OpenCV",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original-wordmark.svg",
-      },
-      {
-        name: "NLP"
-      },
-    ],
-  },
+ {
+  title: "Machine Learning",
+  skills: [
+    {
+      name: "Python",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    },
+    {
+      name: "NumPy",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg",
+    },
+    {
+      name: "Pandas",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg",
+    },
+    {
+      name: "Scikit-Learn",
+      image: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+    },
+    {
+      name: "TensorFlow",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg",
+    },
+    {
+      name: "NLP",
+      image: "https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
+    },
+    {
+      name: "LLMs",
+      image: "https://cdn.worldvectorlogo.com/logos/openai-2.svg",
+    },
+    {
+      name: "LangChain",
+      image: "https://avatars.githubusercontent.com/u/126733545?s=200&v=4",
+    },
+
+    {
+      name: "Generative AI",
+      image: "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
+    },
+  ],
+},
+
 
 
   {
@@ -186,7 +193,34 @@ export const skills = [
   },
 ];
 
+
+
+
 export const experiences = [
+
+{
+  id: 999,
+  img: "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
+  role: "AI Intern",
+  company: "Infosys Ltd – Bhubaneswar, Odisha",
+  date: "Jul 2025 – Present",
+  desc: "Currently working as an AI Intern at Infosys, contributing to enterprise AI/ML solutions. Actively learning Infosys Springboard and testing machine learning models, exploring LLMs, LangChain-based, and Generative AI workflows.",
+  skills: [
+    "Python",
+    "Machine Learning",
+    "LLMs",
+    "LangChain", 
+    "Generative AI",
+    "Model Evaluation",
+    "AI"
+  ],
+  doc: "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
+},
+
+
+
+
+
   {
     id: 0,
     img: "https://devfolio.co/blog/content/images/2022/01/favicon-196x196.png",
@@ -304,6 +338,30 @@ export const experiences = [
     ], 
     doc: "https://i.pinimg.com/736x/8b/09/dd/8b09ddf9632c3569e0b0e456aa5cec7c.jpg",
   },
+
+  {
+  id: 998,
+  img: "https://www.infosys.com/content/dam/infosys-web/en/global-resource/media-resources/infosys-logo-jpeg.jpg",
+  role: "Infosys Springboard – AI & ML Certification",
+  company: "Infosys Springboard",
+  date: "2025-2026",
+  desc: "Successfully completed structured AI & ML certification program covering Python fundamentals, data preprocessing, EDA, probability & statistics, hypothesis testing, machine learning workflow, time series concepts, and deep learning fundamentals including NLP and Computer Vision.",
+  skills: [
+    "Python",
+    "Pandas",
+    "EDA",
+    "Statistics",
+    "Machine Learning",
+    "Deep Learning",
+    "NLP",
+    "Time Series",
+    "Generative AI",
+  ],
+  doc: "https://www.infosys.com/content/dam/infosys-web/en/global-resource/media-resources/infosys-logo-jpeg.jpg",
+},
+// "https://drive.google.com/file/d/1JFFWn6dwAPuAOshRzcq3phPM0dhidR0O/view?usp=sharing"
+
+
   {
     id: 4,
     img: "https://www.redhat.com/rhdc/managed-files/Logo-Red_Hat-Academy-A-Red-RGB.png",
@@ -323,6 +381,8 @@ export const experiences = [
     ],
     doc: "https://i.pinimg.com/736x/47/6f/0e/476f0e5b9173e75ac543a5f1fb72e229.jpg",
   },
+
+  
 ];
 
 export const education = [
@@ -344,7 +404,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://directory.edugorilla.com/wp-content/uploads/sites/6/2018/01/bdb58fd5abaa915fb6f9d163bbbeef5b.jpeg",
+    img: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepsJegvshAE-iMI5Dppd8-bfdsWkHpdwa4LL0BM_BrOZP4n9Ep4MERRrod9N9QJhhql1ACGhvtgiULdlcKOytBYoOfsq3Z1fA7o8_DKg6Pw22qaYGYWATEALj45AHRbvOOSUHY7mg=s1360-w1360-h1020-rw",
     school: "St. Theresa's school",
     desc: "I completed my class 10 education at St. Theresa's school, Marpa Kothi, Bairgania, Sitamarhi, Bihar, 843313 .",
     degree: "HIGH SCHOOL:- Bihar Board.",
